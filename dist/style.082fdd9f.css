@@ -80,8 +80,8 @@
 #player .panels .panel-effect .effect .effect-2 {
   background: url(/effect-move1.8d0ce205.svg) 0 0 no-repeat;
   width: 60vw;
-  height: 70vw;
-  animation: rotate 20s linear infinite;
+  height: 60vw;
+  animation: rotate 20s linear infinite reverse;
 }
 #player .panels .panel-effect .effect .effect-3 {
   background: url(/effect-move2.143040a0.svg) 0 0 no-repeat;
