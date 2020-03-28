@@ -11,7 +11,7 @@ yarn parcel build index.html
 
 ### 预览地址（请使用手机预览）
 
-https://wuchuan123.github.io/wuyu-music/dist/index.html
+
 
 
 
