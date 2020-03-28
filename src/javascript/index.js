@@ -16,7 +16,7 @@ class Player {
   }
 
   start() {
-    fetch("https://jirengu.github.io/data-mock/huawei-music/music-list.json")
+    fetch("http://wuchuan123.gitee.io/data-mock-wuyumusic/huawei-music/music-list.json")
       .then(res => res.json())
       .then(data => {
         console.log(data);
