@@ -8,6 +8,6 @@
     "sass": "^1.26.2"
   },
   "scripts": {
-    "build":"rm -rf dist && parcel build index.html"
+    "build":"rm -rf dist && parcel build index.html --public-url ./"
   }
 }
