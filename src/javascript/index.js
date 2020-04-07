@@ -16,7 +16,7 @@ class Player {
   }
 
   start() {
-    fetch("http://wuchuan123.gitee.io/data-mock-wuyumusic/huawei-music/music-list.json")
+    fetch("https://jirengu.github.io/data-mock/huawei-music/music-list.json")
       .then(res => res.json())
       .then(data => {
         console.log(data);
@@ -162,3 +162,21 @@ class Player {
 }
 
 window.p = new Player("#player");
+
+window.onload=()=>{
+  setTimeout(()=>{
+    window.scrollTo(0,100)
+  },3000)
+}
+if(document.documentElement.clientWidth>500){
+  window.alert('请使用手机打开，以确保浏览效果')
+  const img=document.createElement('img')
+  img.src=require('../images/qrcod.png')
+  img.style.position='fixed'
+  img.style.left='50%'
+  img.style.top='50%'
+  img.style.width='300px'
+  img.style.transform='translate(-50%,-50%)'
+  img.style.boxShadow='0 0 10px rgba(0,0,0,0.2)'
+  document.body.appendChild(img)
+}
